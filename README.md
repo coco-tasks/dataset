@@ -29,7 +29,7 @@ Our annotations are located in the `annotations` folder. For example the file `t
 
 Each annotation, i.e. an object in an image is specified using the following dictionary structure in the JSON files.
 
-```json
+```js
 {
     'segmentation': [], // the segmentation mask of the object
 	'area': 33356.1888,
@@ -54,7 +54,7 @@ As described in our paper, at test time, we need to first perform object detecti
 
 Each detection is specified using the following dictionary structed in the JSON file.
 
-```json
+```js
 {
     'image_id': 262148, //COCO image id
 	'category_id': 1,  //COCO category id

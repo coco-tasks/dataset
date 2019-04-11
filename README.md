@@ -32,13 +32,13 @@ Each annotation, i.e. an object in an image is specified using the following dic
 ```js
 {
     'segmentation': [], // the segmentation mask of the object
-	'area': 33356.1888,
+    'area': 33356.1888,
     'iscrowd': 0,
     'image_id': 576993,  // COCO image id of the object
     'bbox': [57.6, 87.65, 266.4, 195.12],  // bounding box of the object
     'COCO_category_id': 58,  // the original category id from COCO
-	'category_id': 0,  // whether or not it is preferred object in this image for the task. 0 means "not preferred" and 1 means "preferred"
-	'id': 207 // COCO annotation id of the object
+    'category_id': 0,  // whether or not it is preferred object in this image for the task. 0 means "not preferred" and 1 means "preferred"
+    'id': 207 // COCO annotation id of the object
 }
 ```
 
@@ -57,8 +57,8 @@ Each detection is specified using the following dictionary structed in the JSON 
 ```js
 {
     'image_id': 262148, //COCO image id
-	'category_id': 1,  //COCO category id
-	'bbox': [250.77206420898438,  // bounding box of the detection [x, y, width, height]
+    'category_id': 1,  //COCO category id
+    'bbox': [250.77206420898438,  // bounding box of the detection [x, y, width, height]
              50.91807556152344,
              154.542236328125,
              295.10801696777344],

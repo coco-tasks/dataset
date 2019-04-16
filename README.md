@@ -15,6 +15,20 @@ If you use our dataset, please cite our paper.
 
 
 
+## Downloading
+
+**NOTE**: We use [Git-LFS](https://git-lfs.github.com/) to host the annotation files, so you need to first install it.
+
+The you can clone our repository which will download all the files.
+
+### CVPR 2019 Release
+
+To download our dataset release used in our CVPR 2019 paper, use the following:
+
+```bash
+git clone -b cvpr2019 --depth 1 git@github.com:coco-tasks/dataset.git coco-tasks
+```
+
 ## Usage
 
 The dataset's annotation format is the same as the [COCO](http://cocodataset.org/) format with a small addition. This means that you can use the [COCO's API](https://github.com/cocodataset/cocoapi) to use our dataset.

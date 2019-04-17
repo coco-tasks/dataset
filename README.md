@@ -13,7 +13,15 @@ If you use our dataset, please cite our paper.
 }
 ```
 
-
+Table of Contents
+=================
+ 
+ * [Downloading](#downloading)
+     * [CVPR 2019 Release](#cvpr-2019-release)
+ * [Usage](#usage)
+     * [Annotations](#annotations)
+     * [Image Lists](#image-lists)
+     * [Detection Files](#detection-files)
 
 ## Downloading
 

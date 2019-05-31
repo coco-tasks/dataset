@@ -1,6 +1,6 @@
 # The COCO-Tasks Dataset
 
-This repository contains the COCO-Tasks Dataset. For more information regarding the dataset please check our [paper](https://arxiv.org/abs/1904.03000).
+This repository contains the COCO-Tasks Dataset. For more information regarding the dataset please check the our [paper](https://arxiv.org/abs/1904.03000).
 
 If you use our dataset, please cite our paper.
 
@@ -27,7 +27,7 @@ Table of Contents
 
 **NOTE**: We use [Git-LFS](https://git-lfs.github.com/) to host the annotation files, so you need to first install it.
 
-The you can clone our repository which will download all the files.
+Then you can clone our repository which will download all the files.
 
 ### CVPR 2019 Release
 
@@ -43,7 +43,7 @@ The dataset's annotation format is the same as the [COCO](http://cocodataset.org
 
 You also have to download the images separately from [COCO dataset's website](http://cocodataset.org/#download).
 
-If you want to reproduce our results, checkout the our code: [yassersouri/task-driven-object-detection](https://github.com/yassersouri/task-driven-object-detection)
+If you want to reproduce our results, checkout our code: [yassersouri/task-driven-object-detection](https://github.com/yassersouri/task-driven-object-detection)
 
 ### Annotations
 
